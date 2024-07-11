@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>중국 상하이 여행 가이드</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  * {
+	font-family: "Jua", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	}
+
+    .navbar-brand {
+      font-size: 24px; /* 폰트 사이즈 조정 */
+      font-weight: bold; /* 폰트 굵기 조정 */
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+    }
+    .navbar {
+      margin-bottom: 30px;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    .bg-light {
+      background-color: #f8f9fa !important;
+    }
+    .bg-primary {
+      background-color: #000080 !important;
+      color: white;
+    }
+    .bg-secondary {
+      background-color: #6c757d !important;
+      color: white;
+    }
+    .bg-success {
+      background-color:  #87CEEB !important;
+      color: white;
+    }
+    .bg-info {
+      background-color: #17a2b8 !important;
+      color: white;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    .carousel-inner img,
+    .attraction-item img {
+      width: 100%;
+      height: auto;
+    }
+    .modal-body img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+    }
+    .attraction-item {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .btn-details {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+    iframe {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- 내비게이션 바 - 항목을 변경하거나 추가할 수 있습니다 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"> 중국 상하이 여행 가이드 - 10421 홍승완</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#overview">개요</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#history">역사</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#attractions">관광지</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tips">여행 팁</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 개요 섹션 -->
+  <section id="overview" class="section bg-primary">
+    <div class="container">
+      <h2 class="text-center">개요</h2>
+      <p>중국 상하이는 장강 동쪽 하류에 위치하고 있으며, 황푸강이 도시를 관통하여 흐른다. 2021년 기준으로 2,489만 명이 거주하고 있는 상하이는 중화인민공화국에서 인구 수가 가장 많은 도시로 3,930만명이 상하이 대도시권에 거주하고 있고, 중국 본토에서 국내총생산이 가장 높은 도시이다.</p>
+      <!-- 이미지 슬라이드 - 이미지를 변경하려면 src 속성 값을 수정하세요 -->
+      <div id="overviewCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/상하이1.jpg" class="d-block w-100" alt="중국 상하이 개요 1">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/상하이2.jpg" class="d-block w-100" alt="중국 상하이 개요 2">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/상하이3.jpg" class="d-block w-100" alt="중국 상하이 개요 3">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/상하이4.jpg" class="d-block w-100" alt="중국 상하이 개요 4">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/상하이5.jpg" class="d-block w-100" alt="중국 상하이 개요 5">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#overviewCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">이전</span>
+        </a>
+        <a class="carousel-control-next" href="#overviewCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">다음</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 역사 섹션 -->
+  <section id="history" class="section bg-secondary">
+    <div class="container">
+      <h2 class="text-center">역사</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/1.jpg" alt="중국 상하이, 아편전쟁과의 역사" class="img-fluid">
+            <p>아편전쟁으로 인해 바뀐 중국 상하이</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal1">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/2.jpg" alt="중국 상하이, 대한민국 임시정부와의 역사" class="img-fluid">
+            <p>중국 상하이에서 활동한 대한민국의 독립운동가</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal2">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/3.jpg" alt="1차 세계 대전 때에 중국 상하이의 역사" class="img-fluid">
+            <p>1차 세계 대전 때, 중국 상하이의 발전</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal3">상세보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모달 - 역사 1 -->
+  <div class="modal fade" id="historyModal1" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel1">아편전쟁과의 역사</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/상하이6.jpg" alt="중국 상하이 발전 역사" class="img-fluid">
+          <p>상하이는 원래 조용한 어촌 이자 시장 이 형성되는 마을이었지만, 19세기 중국 내외의 무역 증가와 상하이의 유리한 입지 덕분에 중요도가 올라가게 되었다. 1840년 제1차 아편 전쟁 이후 조약항 5개 중 하나에 포함된 상하이는 유럽 열강에 의해 강제로 개항하였으며, 상하이 공공 조계 와 상하이 프랑스 조계 가 뒤이어 상하이에 설립되었다. 1930년대 상하이는 아시아의 주요 상업 거점이자 금융 거점으로 번창하였다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 역사 2 -->
+  <div class="modal fade" id="historyModal2" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel2">중국 상하이와 대한민국 임시정부와의 역사</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/상하이7.jpg" alt="중국 상하이와 대한민국 임시정부와의 역사" class="img-fluid">
+          <p>대한민국의 법통을 이어받은 대한민국 임시정부도 일제강점기 당시 이곳 상하이에 신세를 지고 있었다. 신해혁명 이후 상하이는 위안스카이의 지배에 들어갔고 쑹자오런이 상하이에서 베이징으로 가는 기차에 탑승하려다가 암살되는 쑹자오런 암살 사건이 일어나기도 했다. 이후 군벌 쑨촨팡이 차지했으며 1926년 국민당의 1차 북벌이 시작되자 1927년 3월에 국민정부가 점령했다. 이후 4.12 상하이 쿠데타가 발생했고 난징 국민정부의 핵심적인 지역으로 남았다. 그러다가 1932년 만주국 설립을 위해 마옥산 사건을 구실로 제1차 상하이 사변이 발발한 바가 있으며, 송호정전협정 체결로 비무장지대가 설치되었다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 역사 3 -->
+  <div class="modal fade" id="historyModal3" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel3">1차 세계 대전 때에 상하이의 역사</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/상하이8.jpg" alt="중국 상하이 역사 3" class="img-fluid">
+          <p>상하이는 유럽 열강들의 조계지가 되었던 근대에 차츰 발전을 거듭해 이미 1914~1918년 제1차 세계 대전 무렵부터 동아시아 최대의 경제도시이며 규모로는 세계 6대 대도시 중 하나가 되었고 1948년에는 인구 430만으로 그 당시 중국 최대도시였다. 제1대 중화민국 입법위원 선거에서는 당시 중국 전역의 직할시 중 유일하게, 각 성급행정구별로 배정된 최소 인원인 5명보다 많은 7명의 입법위원을 선출하였다. 그 후 덩샤오핑 시절 이후부터 현재까지 급속도로 성장하여 중국의 4대 직할시[16] 가운데 하나이자 경제도시의 타이틀을 거머쥐고 있는 대도시다. 특히 이 4대도시 가운데서도 수도인 베이징과 나란히 중국 본토의 경제를 이끌고 있다.
+</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 관광지 섹션 -->
+  <section id="attractions" class="section bg-success">
+    <div class="container">
+      <h2 class="text-center">관광지</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/와이탄1.jpg" alt="와이탄" class="img-fluid">
+            <p>중국 상하이시 황푸구에 있는 상하이시의 도심부. </p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal1">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/광푸린유적지1.jpg" alt="광푸린 유적지" class="img-fluid">
+            <p>광푸린 유적공원은 상하이 송장구에 위치한 5,000년이 넘는 고고학 유적지.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal2">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/디즈니랜드1.jpg" alt="상하이 디즈니랜드" class="img-fluid">
+            <p>중국 상하이에 있는 디즈니랜드.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal3">상세보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모달 - 관광지 1 -->
+  <div class="modal fade" id="attractionModal1" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel1">와이탄</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/와이탄2.jpg" alt="와이탄" class="img-fluid">
+          <p>황푸강과 접해있으며, 루자쭈이금융무역구가 황푸강 건너편에 있다. 루자쭈이와 함께 상하이 하면 흔히 생각나는 대표적인 곳으로, 개항 이후에 발전하였기에 유럽식 건축물이 줄지어 늘어 서 있다. 이러한 역사성을 인정받아서, 와이탄의 건축군은 전국중점문물보호단위로 지정하고 보호중이다.
+
+와이탄은 루자쭈이가 개발되기 이전 상하이의 금융중심지였으며, 루자쭈이가 개발된 이후에도 금융가 및 상하이의 도심으로서 번성중이다. 이러한 느낌때문에 와이탄을 흔히 동방의 월 스트리트(东方华尔街)라는 별명으로도 부른다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 관광지 2 -->
+  <div class="modal fade" id="attractionModal2" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel2">광푸린 유적지</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/광푸린유적지2.jpg" alt="광푸린 유적지" class="img-fluid">
+          <p> 250평방킬로미터의 부지에서 주나라의 유물도 발굴되었습니다. Zhiye Temple과 같은 유적지와 공원에서 휴식을 취할 수있는 많은 녹지도 있습니다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 관광지 3 -->
+  <div class="modal fade" id="attractionModal3" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel3">상하이 디즈니랜드</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/상하이디즈니랜드2.jpg" alt="상하이 디즈니랜드" class="img-fluid">
+          <p>상하이 디즈니랜드에서 여행자들은 현대 건축물의 아름다움을 감상하고, 쇼핑센터, 레스토랑, 박물관 등 다양한 시설과 엔터테인먼트를 즐길 수 있으며 사원, 정원, 전통 거리, 역사적인 유적지 등을 방문하여 중국의 역사와 문화를 탐험할 수 있습니다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 여행 팁 섹션 -->
+  <section id="tips" class="section bg-info">
+    <div class="container">
+      <h2 class="text-center">여행 팁</h2>
+      <ul>
+        <li>방문하기 좋은 시기: 봄 (3월~5월)과 가을 (9월~11월).</li>
+        <li>언어: 중국어. 주요 도시에서 가끔 영어도 사용되지만, 거의 사용하지 않아 기본적인 중국어를 배우면 도움이 됩니다.</li>
+        <li>통화: 중국 위안.</li>
+        <li>교통: 중국 상하이는 지하철의 노선이 매우 광범위하기 때문에 장소 이동이 편리합니다.</li>
+      </ul>
+      <div class="text-center">
+        <!-- 여기에 YouTube 동영상 링크를 추가하세요 -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tXVDeena_ik?si=2QSl7tC2LcxOgdbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer class="text-center">
+    <p>&copy; 2024 중국 상하이 여행 가이드. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
